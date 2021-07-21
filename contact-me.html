@@ -16,14 +16,15 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
 </head>
 
 <body style="background-color: black;font-family: Montserrat, sans-serif;">
     <nav class="navbar navbar-dark navbar-expand-lg portfolio-navbar gradient" style="filter: blur(0px);background: #00aeff;font-family: Montserrat, sans-serif;text-shadow: 0px 0px 20px rgb(0,0,0);">
-        <div class="container-fluid"><a class="navbar-brand logo" href="index" style="font-family: Montserrat, sans-serif;">Geeth Gunnampalli</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav" style="border-style: none;color: rgba(255,255,255,0);background: rgba(255,255,255,0);"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="container-fluid"><a class="navbar-brand logo" href="index" style="font-family: Montserrat, sans-serif;">Geeth Gunnampalli</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarNav" style="border-style: none;color: rgba(255,255,255,0);background: rgba(255,255,255,0);"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="index" style="font-family: Montserrat, sans-serif;">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="about-me" style="font-family: Montserrat, sans-serif;">About Me</a></li>
                     <li class="nav-item"><a class="nav-link" href="projects.html" style="font-family: Montserrat, sans-serif;">Projects</a></li>
@@ -39,18 +40,18 @@
                     <h2 style="color: rgb(255,255,255);text-shadow: 0px 0px 20px rgb(0,0,0);">Contact Me</h2>
                 </div>
                 <form data-bss-recipient="85a5c656f152c7c49bf188b5fabde8c1" style="box-shadow: 0px 0px 20px;">
-                    <div class="form-group"><label for="subject" style="color: rgb(255,255,255);">Subject</label><select class="form-control" id="subject" style="background: rgb(255,255,255);border-color: rgb(142,142,142);">
+                    <div class="form-group mb-3"><label class="form-label" for="subject" style="color: rgb(255,255,255);">Subject</label><select class="form-select" id="subject" style="background: rgb(255,255,255);border-color: rgb(142,142,142);">
                             <option value="" selected="">Choose Subject</option>
                             <option value="1">General</option>
                             <option value="2">Feedback</option>
                             <option value="3">Question</option>
                         </select></div>
-                    <div class="form-group"><label for="email" style="color: rgb(255,255,255);">Email</label><input class="form-control" type="email" id="email" style="background: rgb(255,255,255);border-color: rgb(142,142,142);"></div>
-                    <div class="form-group"><label for="message" style="color: rgb(255,255,255);">Message</label><textarea class="form-control" id="message" style="border-color: rgb(142,142,142);background: rgb(255,255,255);"></textarea></div>
-                    <div class="form-group">
-                        <div class="form-row">
-                            <div class="col-md-6"><label for="hire-date" style="color: rgb(255,255,255);">Date</label><input class="form-control" id="hire-date" type="date" style="border-color: rgb(142,142,142);background: rgb(255,255,255);"></div>
-                            <div class="col-md-6 button"><button class="btn btn-primary btn-block" type="submit">Contact Me</button></div>
+                    <div class="form-group mb-3"><label class="form-label" for="email" style="color: rgb(255,255,255);">Email</label><input class="form-control" type="email" id="email" style="background: rgb(255,255,255);border-color: rgb(142,142,142);"></div>
+                    <div class="form-group mb-3"><label class="form-label" for="message" style="color: rgb(255,255,255);">Message</label><textarea class="form-control" id="message" style="border-color: rgb(142,142,142);background: rgb(255,255,255);"></textarea></div>
+                    <div class="form-group mb-3">
+                        <div class="row">
+                            <div class="col-md-6"><label class="form-label" for="hire-date" style="color: rgb(255,255,255);">Date</label><input class="form-control" id="hire-date" type="date" style="border-color: rgb(142,142,142);background: rgb(255,255,255);"></div>
+                            <div class="col-md-6 button"><button class="btn btn-primary d-block w-100" type="submit">Contact Me</button></div>
                         </div>
                     </div>
                 </form>
@@ -59,13 +60,14 @@
     </main>
     <footer class="page-footer" style="border-color: rgb(0,0,0);">
         <div class="container">
-            <div class="social-icons"><a href="https://www.instagram.com/thetechie.official/" style="background: rgb(14,160,255);"><i class="fab fa-instagram"></i></a><a href="https://github.com/thetechie7" style="background: rgb(14,160,255);"><i class="fab fa-github" style="background: rgba(255,255,255,0);"></i></a><a href="https://w www.linkedin.com/in/geethgunnampalli" style="background: rgb(14,160,255);"><i class="icon ion-social-linkedin"></i></a></div>
+            <div class="social-icons"><a href="https://www.instagram.com/thetechie.official/" style="background: linear-gradient(-175deg, #00aeff 0%, rgb(0,0,0) 100%), rgb(0,0,0);"><i class="fab fa-instagram"></i></a><a href="https://github.com/thetechie7" style="background: linear-gradient(-175deg, #00aeff 0%, rgb(0,0,0) 100%), rgb(0,0,0);"><i class="fab fa-github" style="background: rgba(255,255,255,0);"></i></a><a href="https://w www.linkedin.com/in/geethgunnampalli" style="background: linear-gradient(-175deg, #00aeff 0%, rgb(0,0,0) 100%), rgb(0,0,0);"><i class="icon ion-social-linkedin"></i></a></div>
         </div>
         <p class="text-muted mb-0 small" style="color: rgb(142,142,142);">© 2021 Geeth Gunnampalli</p>
     </footer>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/smart-forms.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
     <script src="assets/js/theme.js"></script>
 </body>
