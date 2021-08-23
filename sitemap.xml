@@ -10,6 +10,9 @@
         <loc>/index.html</loc>
     </url>
     <url>
+        <loc>/onepager.html</loc>
+    </url>
+    <url>
         <loc>/projects.html</loc>
     </url>
 </urlset>
